@@ -19,14 +19,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\src\drawxy_common.h" />
-    <ClInclude Include="..\src\drawxy_draw_funcs.h" />
-    <ClInclude Include="..\src\drawxy_graph_funcs.h" />
-    <ClInclude Include="..\src\drawxy_run.h" />
-    <ClInclude Include="..\src\drawxy_structs.h" />
+    <ClCompile Include="drawxy.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\src\drawxy.cpp" />
+    <ClInclude Include="drawxy_common.h" />
+    <ClInclude Include="drawxy_draw_funcs.h" />
+    <ClInclude Include="drawxy_graph_funcs.h" />
+    <ClInclude Include="drawxy_run.h" />
+    <ClInclude Include="drawxy_structs.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
